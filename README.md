@@ -29,13 +29,12 @@
 ## Problem Statement:
 
 Your task is to create a TO-DO list web application that is accessible to all classes of physically disabled people, including:
-
-- Blind people
-- People with Low Vision
-- People with Color Blindness
-- People with Limited Dexterity
-- People with Paralysis
-- Single Hand Usage
+1.  Blind people
+2.   People with Low Vision
+3.   People with Color Blindness
+4.   People with Limited Dexterity
+5.   People with Paralysis
+6.   Single Hand Usage
 
 **Requirements**:
 
