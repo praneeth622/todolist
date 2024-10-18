@@ -1,6 +1,6 @@
 # todo-list
 
-***Instructions:***
+## Instructions:
 
 1. Fork the github repo into your personal Github account and take a clone into your local system.
     
@@ -26,7 +26,7 @@
 5. Share the repository link into the Google Form: https://forms.gle/2HbLP8GNiYArZFsj8
 
 
-### Problem Statement:
+## Problem Statement:
 
 Your task is to create a TO-DO list web application that is accessible to all classes of physically disabled people, including:
 
