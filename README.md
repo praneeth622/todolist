@@ -23,3 +23,28 @@
     c) Ubuntu: https://askubuntu.com/questions/4428/how-can-i-record-my-screen
     
 5. Share the repository link into the Google Form: https://forms.gle/2HbLP8GNiYArZFsj8
+
+
+### Problem Statement:
+
+Your task is to create a TO-DO list web application that is accessible to all classes of physically disabled people, including:
+
+- Blind people
+- People with Low Vision
+- People with Color Blindness
+- People with Limited Dexterity
+- People with Paralysis
+- Single Hand Usage
+
+**Requirements**:
+
+- The web app should provide accessibility features such as screen reader support, high contrast mode, keyboard navigation, and voice commands where applicable.
+- Implement inclusive UI/UX that adjusts based on user preferences or limitations.
+- You are free to choose the stack but must provide instructions to run the app locally.
+- If you are a **Full Stack Developer**, you should also implement backend data storage for the TO-DO items, ensuring the user data is stored in a database (e.g., MongoDB, SQL).
+
+**Deliverables**:
+
+- A fully functional accessible web application.
+- Include instructions in your README file on how to run the app.
+- Use any framework/library of your choice (React, Angular, Vue for frontend; Node.js, Django, or Flask for backend).
