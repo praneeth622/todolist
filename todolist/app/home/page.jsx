@@ -26,7 +26,6 @@ import {
 } from "@/components/ui/select";
 import { Mic, Sun, Moon, Trash2, Settings, VolumeX } from "lucide-react";
 import { useTranslation } from "next-i18next";
-import { useSpeechSynthesis } from "react-speech-kit";
 import i18next from "i18next";
 
 export default function AccessibleTodoList() {
@@ -37,7 +36,6 @@ export default function AccessibleTodoList() {
   const [language, setLanguage] = useState("en");
   const [dndMode, setDndMode] = useState(false);
   const [notification, setNotification] = useState(null);
-  const { speak } = useSpeechSynthesis();
   const { t, i18n } = useTranslation("common");
 
   const addTask = async () => {
@@ -150,13 +148,7 @@ export default function AccessibleTodoList() {
     }
     fetchTasks();
   }, []);
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const synth = window.speechSynthesis;
-      const utterance = new SpeechSynthesisUtterance("Hello, this is a test.");
-      synth.speak(utterance);
-    }
-  }, []);
+  
   
 
   return (
