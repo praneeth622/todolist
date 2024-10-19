@@ -151,13 +151,10 @@ export default function AccessibleTodoList() {
     fetchTasks();
   }, []);
   useEffect(() => {
-    const voices = speechSynthesis.getVoices();
-    if (voices.length === 0) {
-      speechSynthesis.onvoiceschanged = () => {
-        speak({ text: "Testing voice after voices loaded" });
-      };
-    } else {
-      speak({ text: "Testing voice" });
+    if (typeof window !== "undefined") {
+      const synth = window.speechSynthesis;
+      const utterance = new SpeechSynthesisUtterance("Hello, this is a test.");
+      synth.speak(utterance);
     }
   }, []);
   
