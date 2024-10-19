@@ -160,9 +160,7 @@ export default function AccessibleTodoList() {
       speak({ text: "Testing voice" });
     }
   }, []);
-  const synth = window.speechSynthesis;
-    const utterance = new SpeechSynthesisUtterance('Hello, this is a test.');
-    synth.speak(utterance);
+  
 
   return (
     <div
